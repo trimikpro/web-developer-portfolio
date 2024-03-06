@@ -1,6 +1,11 @@
 /* common shared styles */
+*{
+    margin: 0;
+    
+}
 body {
     font-family: "Open Sans", sans-serif;
+
 }
 
 .primary-color {
@@ -9,22 +14,20 @@ body {
 
 .btn-primary {
     background-color: #FD6E0A;
-    color: #D9D9D9 ;
-    padding: 10px 20px;
+    color: white ;
+    padding: 15px 30px;
     font-weight: bold;
     border: none;
     border-radius: 5px;
-    width: 150px;
-    height: 60px;
     font-size: 20px;
 }
 
 /* nav related styles */
 nav {
-    display: flex;
-    justify-content: center;
+    display: flex; 
     justify-content: space-between;
     align-items: center;
+    margin: 0 150px;
 }
 
 .nav-title {
@@ -46,4 +49,18 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+    padding-top: 20px;
+}
+.banner{
+    margin: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
