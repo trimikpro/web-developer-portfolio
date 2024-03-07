@@ -234,3 +234,46 @@ hr{
     margin-top: 50px;
    
 }
+
+/* footer section star */
+.footer-section{
+    display: flex;
+    background-color: #FFF8F3;
+    max-height: 800px;
+    margin-top: 50px;
+}
+.footer-colum{
+    margin: 130px ;
+}
+.footer-title{
+    color: #181818;
+    font-size: 30px;
+}
+.footer-description{
+    font-size: 16px;
+    color: #474747;
+    margin-top: 20px;
+}
+.footer-icon{
+    margin: 30px;
+}
+.footer-img{
+    margin-right: 40px;
+}  
+.footer-input{
+    height: 40px;
+    width: 300px;
+    margin: 10px 0;
+    border: none;
+    
+}
+textarea{
+    height: 100px;
+    width: 300px;
+    border: none;
+    margin-top: 10px;
+
+}
+#footer-btn{
+    margin-top: 20px;
+}
